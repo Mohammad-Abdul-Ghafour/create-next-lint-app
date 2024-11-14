@@ -1,0 +1,27 @@
+{
+    "name": "create-next-lint-app",
+    "version": "1.0.0",
+    "description": "A Next.js starter template with ESLint, Prettier, Husky, and lint-staged pre-configured.",
+    "main": "index.js",
+    "bin": {
+        "create-next-lint-app": "index.js"
+    },
+    "files": [
+        "index.js",
+        "template/"
+    ],
+    "keywords": [
+        "nextjs",
+        "template",
+        "eslint",
+        "prettier",
+        "husky",
+        "lint-staged"
+    ],
+    "author": "Mohammad Abdul Ghafour (MAG)",
+    "license": "MIT",
+    "dependencies": {
+        "fs-extra": "^11.2.0",
+        "inquirer": "^12.1.0"
+    }
+}
